@@ -1,0 +1,186 @@
+.bookCard {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: rgba(51, 51, 51, 1);
+  justify-self: right;
+  padding: 24px;
+  margin-top: -60px;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  align-items: center;
+  gap: 10px;
+}
+.orgPrice {
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.6);
+}
+.disPriceCont {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  color: white;
+}
+.disPrice {
+  font-weight: 700;
+  font-size: 20px;
+}
+.night {
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 1px;
+}
+.lineSep {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.specialDis {
+  border: 1px solid rgba(182, 161, 109, 0.4);
+  height: 30px;
+  border-radius: 40px;
+  background: rgba(64, 64, 64, 1);
+  box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 4px 4px 19px;
+}
+.sDText {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  color: rgba(249, 214, 128, 1);
+}
+.sDPrice {
+  background: linear-gradient(
+    275.65deg,
+    #a5915f 10.11%,
+    #d2ba7f 55.01%,
+    #b49f6b 93.26%
+  );
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.3);
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  padding: 4px 10px;
+  margin-left: auto;
+}
+.check {
+  border: 1px solid rgba(221, 221, 221, 0.3);
+  height: 48px;
+  border-radius: 4px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.checkText {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(153, 153, 153, 1);
+}
+.checkUpDown {
+  margin-left: auto;
+}
+.checkAvail {
+  background: linear-gradient(
+    275.65deg,
+    #a5915f 10.11%,
+    #d2ba7f 55.01%,
+    #b49f6b 93.26%
+  );
+  height: 48px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1170px) {
+  .bookCard {
+    transform: scale(0.9);
+  }
+}
+.bookingcardMob {
+  width: 100%;
+  height: 80px;
+  background: rgba(19, 19, 19, 1);
+  display: none;
+  grid-template-columns: 45% 55%;
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  padding: 16px;
+}
+
+.text_price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.text_price h6 {
+  font-size: 14px;
+  color: #999999;
+  text-decoration: line-through;
+}
+.inside_price {
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  text-wrap: nowrap;
+}
+.text_price p {
+  font-size: 16px;
+}
+
+.text_price h5 {
+  font-size: 16px;
+}
+
+.inside_bcm_btn {
+  width: 100%;
+  justify-self: left;
+  height: 100%;
+  background: linear-gradient(
+    275.65deg,
+    #a5915f 10.11%,
+    #d2ba7f 55.01%,
+    #b49f6b 93.26%
+  );
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  text-wrap: nowrap;
+}
+@media screen and (max-width: 940px) {
+  .bookCard {
+    display: none;
+  }
+  .bookingcardMob {
+    display: grid;
+  }
+}

@@ -1,0 +1,139 @@
+.amenities {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 40px;
+  max-width: 500px;
+  width: 100%;
+}
+.head {
+  font-family: Lora;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+.amenContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.innerCont {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: rgba(136, 136, 136, 1);
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.viewAmenCont {
+  display: flex;
+  align-items: center;
+}
+.viewAmen {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  font-family: sans-serif;
+  text-wrap: nowrap;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 80%;
+  height: 48px;
+  border-radius: 30px;
+  padding: 0 30px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+}
+.meal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 40px 0;
+  max-width: 500px;
+  width: 100%;
+}
+.headMeal {
+  font-family: Lora;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(242, 242, 242, 1);
+}
+.mealText {
+  color: rgba(136, 136, 136, 1);
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+.nveg {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  align-items: center;
+}
+.veg,
+.nonveg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(204, 204, 204, 1);
+  gap: 10px;
+}
+.vegImg {
+  border: 1px solid rgba(17, 191, 14, 1);
+  padding: 5px;
+  border-radius: 2px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+}
+.innerVeg {
+  background: rgba(17, 191, 14, 1);
+  border-radius: 20px;
+  width: 14px;
+  height: 14px;
+}
+.nonvegImg {
+  border: 1px solid rgba(250, 75, 75, 1);
+  padding: 5px;
+  border-radius: 2px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+}
+.innerNonVeg {
+  background: rgba(250, 75, 75, 1);
+  border-radius: 20px;
+  width: 14px;
+  height: 14px;
+}
+.mealBtn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 10px;
+}
+.viewM,
+.mealCard {
+  text-wrap: nowrap;
+  opacity: 80%;
+  height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 0 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+}

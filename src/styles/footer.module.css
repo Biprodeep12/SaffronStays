@@ -1,0 +1,125 @@
+.foot {
+  background: rgba(51, 51, 51, 1);
+  min-height: 413px;
+  display: grid;
+  grid-template-rows: auto 60px;
+}
+.footDetail {
+  padding: 0 172px 0 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 62px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.innerDetail {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detailTitle {
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.details {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footest {
+  background: rgba(25, 25, 25, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 100px;
+}
+.footestText {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footDots {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-left: auto;
+}
+.footdot {
+  width: 24px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+}
+.saffronImg {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  display: none;
+}
+.saffronText {
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.saffronText span {
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  font-family: inter;
+}
+.saffronText p {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footestMob {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mobText {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.mobSocial {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 500px;
+  width: 100%;
+}
+@media screen and (max-width: 940px) {
+  .footDetail {
+    padding: 70px 100px 20px 100px;
+  }
+  .foot {
+    grid-template-rows: auto 98px;
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 776px) {
+  .footDetail {
+    padding: 24px 50px 20px 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .saffronImg {
+    display: flex;
+  }
+  .footDetail {
+    padding: 24px 50px 20px 20px;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
