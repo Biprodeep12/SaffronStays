@@ -17,7 +17,7 @@ export default function AmenMeal() {
               Free parking
             </div>
             <div className={styles.innerCont}>
-              <Image src='/greybed.svg' alt='bed' width={21} height={21} />4
+              <Image src='/greyBed.svg' alt='bed' width={21} height={21} />4
               Bedrooms
             </div>
           </div>
