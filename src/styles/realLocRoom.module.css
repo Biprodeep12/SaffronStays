@@ -109,6 +109,7 @@
   min-width: 300px;
   display: flex;
   flex-direction: column;
+  max-width: 300px;
 }
 .RBImgCont img {
   object-fit: cover;
