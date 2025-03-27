@@ -66,6 +66,7 @@
   background-size: cover;
   margin-bottom: 30px;
   opacity: 90%;
+  max-width: 900px;
 }
 .locBtnCont {
   display: flex;
